@@ -1,0 +1,54 @@
+body {
+	background-color: #1a8bf0;
+}
+
+.jumbotron {
+	margin: 10% 10% 10% 10%;
+}
+
+.jumbotron > .right-btn {
+	position: relative;
+	margin-right: 30px;
+	margin-bottom: 0;
+}
+
+div {
+	font-family: 'Raleway',sans-serif;
+}
+
+.modified-p {
+	font-family: 'Raleway',sans-serif;
+	font-size: 110%;
+}
+
+.jumbotron p {
+	  font-size: 250%;
+}
+
+.fa-twitter-square {
+	  font-size: 250%;
+	  color: #1a8bf0;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:visited {
+	background-color: #1a8bf0;
+	border-color: #1a8bf0;
+}
+
+.fa-quote-left {
+	font-size: 250%;
+}
+
+footer p {
+	color: white;
+	font-size: 150%;
+}
+
+.credit,
+.credit:visited {
+	color:white;
+}
