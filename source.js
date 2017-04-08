@@ -1,12 +1,12 @@
 $(document).ready(function(){
 	var quote='';
-	$.getJSON('https://salt-horse.gomix.me/api/quotes',function(data){
+	$.getJSON('https://salt-horse.glitch.me/api/quotes',function(data){
 		$('#quote').html(data.quoteText);
 		quote=data.quoteText;
 	});
 
 	$('#new-quote').click(function(){
-		$.getJSON('https://salt-horse.gomix.me/api/quotes',function(data){
+		$.getJSON('https://salt-horse.glitch.me/api/quotes',function(data){
 		$('#quote').html(data.quoteText);
 		quote=data.quoteText;
 	});
